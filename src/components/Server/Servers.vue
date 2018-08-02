@@ -2,12 +2,6 @@
     <div class="col-xs-12 col-sm-6">
         <ul class="list-group">
             <app-server v-for="server in servers" :id="server.id" :name="server.name" :status="server.status"></app-server>
-            <!-- <app-server/> -->
-            <!-- <li
-                    class="list-group-item"
-                    v-for="index in 5">
-                Server #{{ index }}
-            </li> -->
         </ul>
     </div>
 </template>
